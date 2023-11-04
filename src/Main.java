@@ -26,16 +26,32 @@ public class Main {
         if (temp < 5) {
             System.out.println("На улице" +temp+  "градуса,  нужно надеть шапку");
         } else {
-                System.out.println("На улице жарко" +temp+ " можно идти без шапки»");
+                System.out.println("На улице" +temp+ " можно идти без шапки");
         }
 
     }
 
     public static void task3() {
+        var speed = 80;
+        if (speed < 60) {
+            System.out.println("Если скорость" +speed+ ", то  придется заплатить штраф");
+        } else {
+            System.out.println("Если скорость" +speed+ " , то можно ездить спокойно");
 
     }
 
     public static void task4() {
+            var age = 19;
+            if (2<= age && age <= 6) {
+                System.out.println("Если возраст человека равен" +age+ ", то ему нужно ходить в сад");
+            } else if (7<= age && age <= 17){
+                System.out.println("Если возраст человека равен" +age+ ", то ему нужно ходить в школу");
+            } else if (18<= age && age <= 24){
+                System.out.println("Если возраст человека равен" +age+ ", то ему нужно ходить в университет");
+            } else if (age <= 24){
+                System.out.println("Если возраст человека равен" +age+ ", то ему нужно работать");
+
+        }
 
     }
 
