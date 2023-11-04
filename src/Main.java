@@ -38,9 +38,10 @@ public class Main {
         } else {
             System.out.println("Если скорость" +speed+ " , то можно ездить спокойно");
 
+
     }
 
-    public static void task4() {
+        public static void task4() {
             var age = 19;
             if (2<= age && age <= 6) {
                 System.out.println("Если возраст человека равен" +age+ ", то ему нужно ходить в сад");
@@ -51,20 +52,47 @@ public class Main {
             } else if (age <= 24) {
                 System.out.println("Если возраст человека равен" +age+ ", то ему нужно работать");
 
-        }
 
     }
 
     public static void task5() {
+                age = 28;
+                if ( age<= 5) {
+                    System.out.println("Если возраст ребенка равен " +age+ ", то ему нельзя кататься на аттракционе");
+                } else if (age <= 14) {
+                    System.out.println("Если возраст человека равен" +age+ ", то ему можно кататься на аттракционе в сопровождении");
+                } else  {
+                    System.out.println("Если возраст человека равен" +age+ ", то емубез сопровождения взрослого");
+
+                }
 
     }
 
     public static void task6() {
+                var people = 73;
+                var freeSpase = 60 - people;
+                var freeSpase = 102 - people;
+                if (freeSpase > 0) {
+                    System.out.println("Свободных сидячих мест" +freeSpase);
+                } else if (freeSpase > 0) {
+                    System.out.println("Есть сидячие места" +freeSpase);
+                } else  {
+                    System.out.println("Сидячих мест нет" +freeSpase);
+                }
+
+
 
     }
 
-    public static void task7() {
-
-    }
-
-}
+    public static void task7()
+            int one = 3;
+            int two = 7;
+            int three = -1;
+            if (one > two && one > three) {
+                System.out.println("One is the biggest. volue =" +one);
+            } else if (two > three) {
+                System.out.println("One is the biggest. volue =" + two);
+            } else {
+                System.out.println("One is the biggest. volue =" + three);
+            }
+        }
