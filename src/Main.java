@@ -32,7 +32,7 @@ public class Main {
     }
 
     public static void task3() {
-        var speed = 80;
+        var speed = 55;
         if (speed < 60) {
             System.out.println("Если скорость" +speed+ ", то  придется заплатить штраф");
         } else {
@@ -44,11 +44,11 @@ public class Main {
             var age = 19;
             if (2<= age && age <= 6) {
                 System.out.println("Если возраст человека равен" +age+ ", то ему нужно ходить в сад");
-            } else if (7<= age && age <= 17){
+            } else if (7<= age && age <= 17) {
                 System.out.println("Если возраст человека равен" +age+ ", то ему нужно ходить в школу");
-            } else if (18<= age && age <= 24){
+            } else if (18<= age && age <= 24) {
                 System.out.println("Если возраст человека равен" +age+ ", то ему нужно ходить в университет");
-            } else if (age <= 24){
+            } else if (age <= 24) {
                 System.out.println("Если возраст человека равен" +age+ ", то ему нужно работать");
 
         }
