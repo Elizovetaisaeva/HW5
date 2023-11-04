@@ -22,6 +22,12 @@ public class Main {
     }
 
     public static void task2() {
+        var temp = 3;
+        if (temp < 5) {
+            System.out.println("На улице" +temp+  "градуса,  нужно надеть шапку");
+        } else {
+                System.out.println("На улице жарко" +temp+ " можно идти без шапки»");
+        }
 
     }
 
